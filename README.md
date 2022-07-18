@@ -1,5 +1,8 @@
 # Voting Contrat Tests
 
+## Lien vidéo du workflow 
+https://www.loom.com/share/f8594b26b8884ed29b4b1ff4b78f42c5
+
 ## Les tests sont groupés tels que suit:
 
 - OWNER privilèges
