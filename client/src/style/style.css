@@ -1,0 +1,137 @@
+/*.wrapDiv {
+
+    border: 5px solid black;
+}*/
+
+.userAdd {
+  margin: 10px 10px 10px 10px;
+}
+
+.userAdd h1 {
+  background-color: rgb(87, 59, 6);
+  font-size: bald;
+  padding-left: 30px;
+  color: white;
+  margin: 10px 10px 10px 10px;
+  border-radius: 10px;
+}
+
+.addVoter {
+  background-color: rgb(248, 194, 148);
+  border: 1px solid black;
+  padding-bottom: 10px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 30px 30px 10px 30px;
+}
+
+.startRegister {
+  background-color: rgb(248, 194, 148);
+  border: 1px solid black;
+  padding-bottom: 10px;
+  text-align: center;
+  margin: 10px 30px 10px 30px;
+  border-radius: 10px;
+}
+.wfs {
+  color:rgb(222, 50, 12) ;
+}
+.myDap{
+  text-align: center;
+  color:white ;
+}
+
+
+.endRegister {
+  background-color: rgb(248, 194, 148);
+  border: 1px solid black;
+  padding-bottom: 10px;
+  text-align: center;
+  margin: 10px 30px 10px 30px;
+  border-radius: 10px;
+}
+
+.startVoting {
+  background-color: rgb(248, 194, 148);
+  border: 1px solid black;
+  padding-bottom: 10px;
+  text-align: center;
+  margin: 10px 30px 10px 30px;
+  border-radius: 10px;
+}
+
+.endVoting {
+  background-color: rgb(248, 194, 148);
+  border: 1px solid black;
+  padding-bottom: 10px;
+  text-align: center;
+  margin: 10px 30px 10px 30px;
+  border-radius: 10px;
+}
+
+.tallyVotes {
+  background-color: rgb(248, 194, 148);
+  border: 1px solid black;
+  padding-bottom: 10px;
+  text-align: center;
+  margin: 10px 30px 10px 30px;
+  border-radius: 10px;
+}
+
+.input {
+  border-radius: 8px;
+  border: 3px solid rgb(87, 59, 6);
+}
+
+.addProposal {
+  background-color: rgb(248, 194, 148);
+  border: 1px solid black;
+  padding-bottom: 10px;
+  text-align: center;
+  margin: 10px 30px 10px 30px;
+  border-radius: 10px;
+}
+.setVote {
+  background-color: rgb(211, 110, 39);
+  border: 1px solid black;
+  padding-bottom: 10px;
+  text-align: center;
+  margin: 10px 30px 10px 30px;
+  border-radius: 10px;
+}
+.setVote h3 {
+  color: white;
+}
+
+ul {
+  border: 1px solid rgb(211, 110, 39);
+}
+
+ul li {
+  border: 1px solid rgb(117, 61, 9);
+  padding-bottom: 9px;
+  padding-top: 9px;
+}
+.brand {
+  background-color: rgb(208, 98, 8);
+  text-align: right;
+}
+.brand h2 {
+  background-color: rgb(208, 98, 8);
+  margin-right: 45px;
+}
+
+.button {
+  border-radius: 30px;
+  background-color: rgb(208, 98, 8);
+  color: white;
+  padding: 10px;
+  margin: 10px;
+}
+.voteButton {
+  border-radius: 30px;
+  background-color: rgb(248, 194, 148);
+  color: rgb(104, 15, 15);
+  padding: 10px;
+  margin: 10px;
+}
