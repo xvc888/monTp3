@@ -206,6 +206,7 @@ contract Voting is Ownable {
 
     /// @notice Allow the owner to tallyVotes and announce winning proposal
     /// @dev  Allow the owner to tallyVotes and announce winning proposal
+    /// @notice p < 200 to prevent DDOS attacks and increased security
 
     function tallyVotes() external onlyOwner {
         require(
@@ -213,7 +214,7 @@ contract Voting is Ownable {
             "Current status is not voting session ended"
         );
         uint256 _winningProposalId;
-        for (uint256 p = 0; p < proposalsArray.length; p++) {
+        for (uint256 p = 0; p < 200; p++) {
             if (
                 proposalsArray[p].voteCount >
                 proposalsArray[_winningProposalId].voteCount
