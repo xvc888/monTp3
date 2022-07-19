@@ -105,6 +105,11 @@ contract Voting is Ownable {
     /// @param _desc description of the proposal
 
     function addProposal(string memory _desc) external onlyVoters {
+   
+        require(
+        proposalsArray.length <= 100, 'you reach the maximum proposal'
+        );
+        
         require(
             workflowStatus == WorkflowStatus.ProposalsRegistrationStarted,
             "Proposals are not allowed yet"
@@ -214,7 +219,7 @@ contract Voting is Ownable {
             "Current status is not voting session ended"
         );
         uint256 _winningProposalId;
-        for (uint256 p = 0; p < 200; p++) {
+        for (uint256 p = 0; p < proposalsArray.length; p++) {
             if (
                 proposalsArray[p].voteCount >
                 proposalsArray[_winningProposalId].voteCount
